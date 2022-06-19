@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+/* Typography */
+
+@font-face {
+    font-family: FighterFont;
+    src: url(assets/Act_Of_Rejection.ttf);
+}
+
+main {
+    font-family: FighterFont;
+    border: white 5px solid;
+    border-radius: 25px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+    color: #ec7017;
+    font-weight: 900;
+    text-shadow: 0px 3px 0px white;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 40px;
+}
+
+button {
+    font-family: FighterFont;
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    background: #ec7017;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+.stage {
+    width: 300px;
+    display: flex;
+    margin: auto;
+}
+
+.stage p {
+    margin: auto;
+    padding: 20px;
+}
